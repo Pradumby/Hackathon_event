@@ -1,0 +1,48 @@
+.create-hackathon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  padding: 2rem;
+}
+
+.create-hackathon-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.create-hackathon-input,
+.create-hackathon-textarea {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.create-hackathon-textarea {
+  height: 150px;
+  resize: none;
+}
+
+.create-hackathon-button {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-hackathon-button:hover {
+  background-color: #2980b9;
+}

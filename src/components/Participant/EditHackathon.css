@@ -1,0 +1,48 @@
+.edit-hackathon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  padding: 2rem;
+}
+
+.edit-hackathon-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.edit-hackathon-input,
+.edit-hackathon-textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.edit-hackathon-textarea {
+  height: 150px;
+  resize: none;
+}
+
+.edit-hackathon-button {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-hackathon-button:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,13 @@
+.hackathon-detail-container {
+  padding: 20px;
+}
+
+.hackathon-detail-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hackathon-detail-theme {
+  font-size: 18px;
+  color: gray;
+}
