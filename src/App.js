@@ -15,6 +15,8 @@ import EditHackathon from "./components/Participant/EditHackathon";
 import {HackathonProvider} from "./ContextAPI";
 import HackathonDetail from "./components/HackathonsDetails";
 import {HackathonProviders} from "./ParticipantContext";
+import PastHackathonPaper from "./components/HackathonPaper";
+import HackathonQuestion from "./components/HackathonQuestion";
 
 // import "tailwindcss/tailwind.css";
 
@@ -43,6 +45,14 @@ function App() {
             <Route
               path="/hackathon/:id"
               element={<HackathonDetail />}
+            />
+            <Route
+              path="/hackathonPaper/:id"
+              element={<PastHackathonPaper />}
+            />
+            <Route
+              path="/hackathonQuestion/:id"
+              element={<HackathonQuestion />}
             />
             <Route
               path="/register/:id"

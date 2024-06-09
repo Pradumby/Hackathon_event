@@ -28,7 +28,7 @@ function Dashboard() {
               className="hackathon-item"
             >
               <Link
-                to={`/hackathon/${h.id}`}
+                to={`/hackathonQuestion/${h.id}`}
                 className="hackathon-link"
               >
                 {h.name} - {h.theme}
